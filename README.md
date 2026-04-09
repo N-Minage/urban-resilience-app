@@ -97,21 +97,22 @@ The project evaluates fairness by analyzing whether:
 ## 📁 Project Structure
 urban-resilience-engine/
 │
+├── app.py                          # Streamlit application (main entry point)
+│
 ├── data/
-│ ├── nairobi_risk_dataset.csv
-│ ├── nairobi_weather_clean.csv
+│   ├── nairobi_risk_dataset.csv
+│   ├── nairobi_weather_clean.csv
+│   ├── subcounty_risk_predictions.csv
 │
 ├── models/
-│ ├── xgboost_risk_model.pkl
-│ ├── label_encoder.pkl
-│ ├── feature_list.pkl
-│ └── loo_metrics.json
+│   ├── xgboost_risk_model.pkl
+│   ├── label_encoder.pkl
+│   ├── feature_list.pkl
+│   ├── loo_metrics.json
 │
-├── outputs/
-│ ├── subcounty_risk_predictions.csv
-│
-├── urban_resilience_app.py
+├── requirements.txt
 ├── README.md
+└── .gitignore
 
 ## 🛠️ View the Live App
 https://urban-resilience-app-a4p8sxdx74kdzaw6xjchg5.streamlit.app/
