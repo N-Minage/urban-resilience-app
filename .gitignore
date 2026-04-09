@@ -1,0 +1,6 @@
+drive/
+sample_data/
+cache/
+.config/
+__pycache__/
+*.log
