@@ -94,26 +94,6 @@ The project evaluates fairness by analyzing whether:
 - **Google Earth Engine (optional)** — satellite data
 
 
-## 📁 Project Structure
-urban-resilience-engine/
-│
-├── app.py                          # Streamlit application (main entry point)
-│
-├── data/
-│   ├── nairobi_risk_dataset.csv
-│   ├── nairobi_weather_clean.csv
-│   ├── subcounty_risk_predictions.csv
-│
-├── models/
-│   ├── xgboost_risk_model.pkl
-│   ├── label_encoder.pkl
-│   ├── feature_list.pkl
-│   ├── loo_metrics.json
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 ## 🛠️ View the Live App
 https://urban-resilience-app-a4p8sxdx74kdzaw6xjchg5.streamlit.app/
 
